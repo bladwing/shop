@@ -1,0 +1,42 @@
+body {
+  background-color: beige;
+  a {
+    text-decoration: none;
+  }
+  .App {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+
+      .Logo-Container {
+        margin: 2% auto;
+
+        img {
+          width: 40%;
+        }
+      }
+
+    }
+
+    .Middle-Container {
+      display: flex;
+      margin-top: 5%;
+
+     
+
+ 
+
+    }
+
+
+    .Footer-Container {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

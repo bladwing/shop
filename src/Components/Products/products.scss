@@ -1,0 +1,21 @@
+main {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h1 {
+      width: 100%;
+    }
+  }
+  .Card-Container {
+    width: 280px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    h5 {
+      color: #0d6efd;
+      width: 100%;
+    }
+  }

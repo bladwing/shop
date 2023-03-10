@@ -1,0 +1,16 @@
+.Search-Container {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+    input {
+      width: 30%;
+      margin: 10px;
+      border-color: #0d6efd;
+    }
+
+    button {
+      margin: 10px;
+    }
+  }
