@@ -7,18 +7,18 @@ const Footer = () => {
     <div className="Footer-Container">
       <footer className="footer-distributed">
         <div className="footer-right">
-          <a href="!#">
+          <Link to="/" target="_blank">
             <i className="fa-brands fa-facebook"></i>
-          </a>
-          <a href="!#">
+          </Link>
+          <Link to="/" target="_blank">
             <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a href="!#">
+          </Link>
+          <Link to="/" target="_blank">
             <i className="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="!#">
+          </Link>
+          <Link to="/" target="_blank">
             <i className="fa-brands fa-github"></i>
-          </a>
+          </Link>
         </div>
 
         <div className="footer-left">
