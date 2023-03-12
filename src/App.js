@@ -1,10 +1,11 @@
-import logo from "./Assets/img/logo.png";
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.scss";
 import Search from "./Components/Search/Search";
 import Footer from "./Components/Footer";
-import Nav from "./Components/Nav/Nav";
+import NavVertical from "./Components/NavVertical/NavVertical";
 import Products from "./Components/Products/Products";
+import logo from "./img/logo.png";
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.scss";
+import NavHorizontal from "./Components/NavHorizontal/NavHorizontal";
 
 function App() {
   return (
@@ -12,13 +13,14 @@ function App() {
       <header>
         <div className="Logo-Container">
           <a href="/">
-            <img src={logo} alt="Shiba Inu" />
-          </a>
+            <img src={logo} alt="it-shop" />
+          </a>   
         </div>
         <Search />
+        <NavHorizontal/>
       </header>
       <div className="Middle-Container">
-        <Nav />
+        <NavVertical />
         <Products />
       </div>
       <Footer />

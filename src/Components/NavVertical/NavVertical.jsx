@@ -1,9 +1,9 @@
 import React from 'react';
-import "./nav.scss"
+import "./navVertical.scss"
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className='Nav-Vertical'>
         <h3>კატეგორია</h3>
         <ul>
           <li>

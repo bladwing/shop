@@ -1,23 +1,29 @@
 body {
   background-color: beige;
+  height: 100vh;
+  padding: 0;
+
   a {
     text-decoration: none;
   }
+
   .App {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     background-color: #fff;
 
     header {
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
-      text-align: center;
-
+      background-color: #192c60;
+   
       .Logo-Container {
-        margin: 2% auto;
+        width: 300px;
 
         img {
-          width: 40%;
+          width: 20%;
+          min-width: 300px;
         }
       }
 
@@ -25,11 +31,12 @@ body {
 
     .Middle-Container {
       display: flex;
-      margin-top: 5%;
+      flex-wrap: wrap;
+      padding-top: 2%;
 
-     
 
- 
+
+
 
     }
 

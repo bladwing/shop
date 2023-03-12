@@ -1,7 +1,9 @@
-nav {
-  width: 25%;
+.Nav-Vertical {
+  width: 300px;
+  min-width: 240px;
+  height: 30%;
   text-align: center;
-  background-color: rgba(5, 48, 243, 0.075);
+  background-color: #f7f9f9;
 
   h3 {
     text-decoration: underline;
