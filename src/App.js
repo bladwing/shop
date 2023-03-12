@@ -49,7 +49,6 @@ const Contact = () => {
   return (
     <div style={{margin: "0, auto"}}>
       <h1>Contact</h1>
-      
      <ContactForm/>
     </div>
   );
