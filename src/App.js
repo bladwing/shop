@@ -7,6 +7,7 @@ import Products from "./Components/Products/Products";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
+import ContactForm from "./Components/ContactForm/ContactForm";
 
 function App() {
   return (
@@ -45,8 +46,10 @@ const About = () => {
 
 const Contact = () => {
   return (
-    <div>
+    <div style={{margin: "0, auto"}}>
       <h1>Contact</h1>
+      
+     <ContactForm/>
     </div>
   );
 };
