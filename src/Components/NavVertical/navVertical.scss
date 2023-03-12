@@ -1,31 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "../../style//_color.scss";
+
 .Nav-Vertical {
   width: 300px;
   min-width: 240px;
-  height: 30%;
-  text-align: center;
+  min-height: 100%;
   background-color: #f7f9f9;
-
-  h3 {
-    text-decoration: underline;
+  width: 300px;
+    background-color: $primary;  
+  .header{
+    padding: 5px;
+    background-color: #2A3942;
   }
-
-  ul {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-    li {
-      padding: 10px;
-      a {
-        text-decoration: none;
-        color: black;
-        
-      }
-
-      :hover {
-        color: skyblue;
-      }
-    }
+  
+  h3{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    text-align: center;
   }
+  
+  .iconM{
+    font-size: 18px;
+    margin-left: 170px;
+    color: #2f89fc;
+  }
+  
+  .icon{
+    margin-right: 8px;
+  }
+  
+  .body li{
+    transition: 1s all;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+    margin-left: -40px;
+    margin-top: 0px;
+    color: #fff;
+    list-style: none;
+    display: block;
+    margin-left: 5%;
+   
+  
+  }
+  
+  li:hover{
+    transition: 1s all;
+    color: #2f89fc;
+    background-color: rgba(42, 56, 65, 0.82);
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    cursor: pointer;
+  }
+  
+  .body > li{
+    float: left;
+  }
+  
+  .body li ul{
+    background: #1E2B32;
+    margin-left: 280px;
+    margin-top: -38px;
+    display: none;
+    position: absolute;
+    border-top-right-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+  }
+  
+  .body li:hover > ul{
+    display: block;
+    cursor: pointer;
+  }
+  
 }
+
