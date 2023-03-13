@@ -1,13 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./Components/Header";
-import Footer from "./Components/Footer/Footer";
+import Card from "./Components/Products/Card";
 import NavVertical from "./Components/NavVertical/NavVertical";
-import Products from "./Components/Products/Products";
+import ContactForm from "./Components/ContactForm/ContactForm";
+import Footer from "./Components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
-import ContactForm from "./Components/ContactForm/ContactForm";
+
 
 function App() {
   return (
@@ -32,7 +33,7 @@ const HomePage = () => {
   return (
     <div className="Middle-Container">
       <NavVertical />
-      <Products />
+      <Card />
     </div>
   );
 };
