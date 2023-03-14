@@ -16,7 +16,7 @@ const Card = () => {
         </div>
 
         <div className="contentBox">
-          <h3>Mouse Corsair M65</h3>
+          <h3><Link to="/detail">Mouse Corsair M65</Link></h3>
           <h2 className="price">
             61.<small>98</small> ₾
           </h2>

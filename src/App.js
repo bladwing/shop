@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
 import Slider from "./Components/Slider/Slider";
 import Carousel from "./Components/Carousel/Carousel";
+import Detail from "./Components/Products/Detail";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/detail" element={<Detail />} />
         </Routes>
         <Footer />
       </BrowserRouter>

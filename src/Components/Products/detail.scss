@@ -1,0 +1,70 @@
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% auto;
+
+    img {
+        width: 70%;
+
+    }
+
+    .main-spec-label {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        width: 40%;
+        height: 200px;
+
+        h1 {
+            width: 100%;
+        }
+
+        span {
+            width: 100%;
+        }
+
+        button {
+            font-family: 'bpg_glaho_traditional';
+            font-weight: 700;
+            padding: 2px 20px;
+            margin-top: 40px;
+            text-decoration: none;
+            border-radius: 6px;
+            border: 0.5px solid grey;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.8s;
+            background-color: transparent;
+
+            &:hover {
+                color: blue;
+            }
+        }
+
+        a {
+            font-size: 42px;
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+
+    }
+
+    table {
+        width: 40%;
+
+        th {
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid grey;
+        }
+    }
+
+    p {
+        width: 400px;
+    }
+
+}
