@@ -48,7 +48,7 @@ const About = () => {
 
 const Contact = () => {
   return (
-    <div style={{margin: "0, auto"}}>
+    <div className="Contact-Container" style={{textAlign: "center"}}>
       <h1>Contact</h1>
      <ContactForm/>
     </div>
