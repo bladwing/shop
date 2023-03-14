@@ -5,13 +5,13 @@ import "./slide.scss";
 
 const fadeImages = [
   {
-    url: "/img/1.jpg",
+    url: "/img/1.png",
   },
   {
-    url: "/img/2.jpg",
+    url: "/img/2.png",
   },
   {
-    url: "/img/3.jpg",
+    url: "/img/3.png",
   },
 ];
 

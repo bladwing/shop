@@ -1,11 +1,16 @@
+@import "../../style/color";
 @import "react-slideshow-image/dist/styles.css";
 
 .slide-container {
-    // margin-top: 1%;
-    width: 50%;
+    margin: 1% auto;
+    width: 80%;
 
     img {
 
         height: 300px;
+    }
+    button {
+        background-color: transparent !important;
+   
     }
 }
