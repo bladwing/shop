@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
 import Slider from "./Components/Slider/Slider";
+import Carousel from "./Components/Carousel/Carousel";
 
 
 function App() {
@@ -38,6 +39,7 @@ const HomePage = () => {
       <NavVertical />
       <Card />
     </div>
+    <Carousel/>
     </div>
   );
 };
