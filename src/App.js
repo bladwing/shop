@@ -8,6 +8,7 @@ import Footer from "./Components/Footer/Footer";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.scss";
+import Slider from "./Components/Slider/Slider";
 
 
 function App() {
@@ -31,9 +32,12 @@ export default App;
 
 const HomePage = () => {
   return (
+    <div className="Home-Container"> 
+      <Slider/>
     <div className="Middle-Container">
       <NavVertical />
       <Card />
+    </div>
     </div>
   );
 };
