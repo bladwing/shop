@@ -6,7 +6,6 @@ const Card = () => {
   return (
     <main>
 
-
       <div className="card">
         <div className="imgBox">
           <img

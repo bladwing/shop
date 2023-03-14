@@ -1,3 +1,11 @@
+@import "../../style/_color.scss";
+@font-face {
+  font-family: 'bpg_glaho_traditional';
+  src: url('../../Assets/fonts/bpg_glaho_traditional.ttf');
+}
+
+
+
 main {
    display: flex;
    flex-wrap: wrap;
@@ -6,9 +14,9 @@ main {
 
 .card {
   position: relative;
-  width: 200px;
-  background: #192c60;
-  border-radius: 20px;
+  width: 220px;
+  background: $primary;
+  border-radius: 10px;
   margin: 10px;
   overflow: hidden;
 }
@@ -19,9 +27,9 @@ main {
   top: -50%;
   width: 100%;
   height: 100%;
-  background: #7fb9de;
+  background: $hoverColor2;
   transform: skewY(345deg);
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .card:hover::before {
@@ -38,18 +46,7 @@ main {
   padding-top: 20px;
   z-index: 1;
 }
-/*
-.card .imgBox img {
-    max-width: 100%;
-    
-    transition: .5s;
-}
 
-.card:hover .imgBox img {
-    max-width: 50%;
-      
-}
-*/
 .card .contentBox {
   position: relative;
   padding: 20px;
@@ -61,33 +58,35 @@ main {
 }
 
 .card .contentBox h3 {
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
+  color: $secondary;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .card .contentBox .price {
-  font-size: 24px;
-  color: white;
+  font-size: 18px;
+  color: $secondary;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 .card .contentBox .buy {
   position: relative;
+  font-family: 'bpg_glaho_traditional';
+  font-weight: 700;
   top: 100px;
   opacity: 0;
   padding: 10px 30px;
   margin-top: 15px;
-  color: #000000;
+  color: $primary;
   text-decoration: none;
-  background: #7fb9de;
+  background: $hoverColor2;
   border-radius: 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: 0.5s;
+  transition: 0.8s;
 }
 
 .card:hover .contentBox .buy {
