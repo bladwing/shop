@@ -6,10 +6,10 @@ const Nav = () => {
         <nav className='Nav-Vertical'>
      
 
-    <div className="header">
+    <div className="Nav-Vertical-header">
       <h3>კატეგორია</h3>
     </div>
-    <div className="body">
+    <div className="Nav-Vertical-Container">
       <ul>
         <li><i className="fas fa-home icon"></i> ლეპტოპები</li>
         <li><i className="fas fa-underline icon"></i> მონიტორები</li>
