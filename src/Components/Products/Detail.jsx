@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./detail.scss";
 
 import Carousel from "../Carousel/Carousel";
@@ -8,7 +7,7 @@ const Detail = () => {
     <div className="details-container">
       <div className="container">
           <div className="card-body">
-            <h3 className="card-title">Rounded Chair</h3>
+            <h2 className="card-title">Rounded Chair</h2>
             <h6 className="card-subtitle">Code: 001</h6>
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-6">
@@ -65,7 +64,7 @@ const Detail = () => {
                   <table className="table table-striped table-product">
                     <tbody>
                       <tr>
-                        <td width="390">Brand</td>
+                        <td width="400px">Brand</td>
                         <td>Stellar</td>
                       </tr>
                       <tr>
@@ -133,7 +132,6 @@ const Detail = () => {
               </div>
             </div>
           </div>
-        
       </div>
       <Carousel />
     </div>
