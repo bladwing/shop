@@ -4,13 +4,16 @@ import Header from "./Components/Header";
 import Card from "./Components/Products/Card";
 import NavVertical from "./Components/NavVertical/NavVertical";
 import ContactForm from "./Components/ContactForm/ContactForm";
+import AboutUs from "./Pages/AboutUs/aboutus";
 import Footer from "./Components/Footer/Footer";
 
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.scss";
 import Slider from "./Components/Slider/Slider";
 import Carousel from "./Components/Carousel/Carousel";
 import Detail from "./Components/Products/Detail";
+
+import "bootstrap/dist/css/bootstrap.css";
+import "./App.scss";
+
 
 
 function App() {
@@ -20,7 +23,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/detail" element={<Detail />} />
         </Routes>
@@ -42,14 +45,6 @@ const HomePage = () => {
       <Card />
     </div>
     <Carousel/>
-    </div>
-  );
-};
-
-const About = () => {
-  return (
-    <div>
-      <h1>About</h1>
     </div>
   );
 };
