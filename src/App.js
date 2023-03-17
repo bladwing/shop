@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Card from "./Components/Products/Card";
 import NavVertical from "./Components/NavVertical/NavVertical";
-import ContactForm from "./Components/ContactForm/ContactForm";
+
+import Contact from "./Pages/Contact/contact";
 import AboutUs from "./Pages/AboutUs/aboutus";
 import Footer from "./Components/Footer/Footer";
 
@@ -49,12 +50,5 @@ const HomePage = () => {
   );
 };
 
-const Contact = () => {
-  return (
-    <div className="Contact-Container" style={{textAlign: "center"}}>
-      <h1>Contact</h1>
-     <ContactForm/>
-    </div>
-  );
-};
+
 
