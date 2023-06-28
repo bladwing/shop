@@ -9,7 +9,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+            src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
@@ -50,7 +50,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+             src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
@@ -70,7 +70,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+             src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
@@ -90,7 +90,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+             src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
@@ -110,7 +110,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+            src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
@@ -130,7 +130,7 @@ const Card = () => {
       <div className="card">
         <div className="imgBox">
           <img
-            src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png"
+             src="/img/CH-9300011-NA-Gallery-M65-PRO-RGB-BLK-04.png"
             alt="mouse corsair"
             className="mouse"
           />
